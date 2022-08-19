@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-  border: 1px solid grey;
+  margin-top: 20px;
   width: 90%;
   height: 90vh;
   display: -webkit-box;
@@ -36,11 +36,17 @@ body {
   font-family: 'Aboreto', cursive;
   -webkit-animation: changeColor 4s linear infinite;
           animation: changeColor 4s linear infinite;
+  text-align: center;
 }
 
 .hex-code-wrapper h3 {
   font-size: 4rem;
   font-family: 'Aboreto', cursive;
+  text-align: center;
+}
+
+.hex-code-wrapper button {
+  margin-top: 50px;
 }
 
 @-webkit-keyframes changeColor {
@@ -82,5 +88,49 @@ body {
   }
   100% {
     color: #ff6464;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hex-code-wrapper p {
+    font-size: 3rem;
+  }
+  .hex-code-wrapper h3 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .hex-code-wrapper p {
+    font-size: 2.5rem;
+  }
+  .hex-code-wrapper h3 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 240px) {
+  .hex-code-wrapper p {
+    font-size: 2rem;
+  }
+  .hex-code-wrapper h3 {
+    font-size: 2rem;
+  }
+  .hex-code-wrapper button {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 195px) {
+  .hex-code-wrapper p {
+    font-size: 1.5rem;
+  }
+  .hex-code-wrapper h3 {
+    font-size: 1.5rem;
+  }
+  .hex-code-wrapper button {
+    width: 130px;
+    height: 70px;
+    font-size: 1rem;
   }
 }
