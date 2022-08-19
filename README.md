@@ -1,2 +1,2 @@
 # hex-codes
-Пробую захостить через гитхаб
+Сайт здесь: https://komisss.github.io/hex-codes/
